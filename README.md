@@ -1,5 +1,5 @@
 # Visual Information Hiding Based on Obfuscating Adversarial Perturbations
-This repository is an official implementation of the ICCV 2023 paper "Visual Information Hiding Based on Obfuscating Adversarial Perturbations".
+This repository is an implementation of the ICCV 2023 paper "Visual Information Hiding Based on Obfuscating Adversarial Perturbations".
 
 ## Environment settings and libraries we used in our experiments
 
