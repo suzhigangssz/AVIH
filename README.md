@@ -14,7 +14,7 @@ This project is tested under the following environment settings:
 ## Preparation
 
 1. Align and crop the face image to $112 \times 112$ and put it under `data/align`.
-2. Put the pre-trained generative model (key model) under the `checkpoints`.
+2. Put the pre-trained generative model (key model) under the `checkpoints`. We provide a [pre-trained model](https://drive.google.com/drive/folders/1ogIV18DxHNYlnuF4N4dQF-Ft00QwG2ov?usp=sharing) for testing in face recognition tasks.
 
 ## Image Encryption for Face Recognition
 Running command to encrypt the image:
