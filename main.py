@@ -47,7 +47,6 @@ def get_dataloader(opt):
     if opt.task == 'face_recognition':
         dataset = torchvision.datasets.ImageFolder(opt.root, transform=transform)
     elif opt.task == 'classification':
-        opt.root = '/home/lgz/sss/code/data/cifar-10-batches-py'
         dataset = torchvision.datasets.CIFAR10(opt.root, train=False, download=False,
                                                transform=transform)
     else:
