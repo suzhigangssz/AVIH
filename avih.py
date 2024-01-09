@@ -27,7 +27,7 @@ class AVIH(object):
         if self.opt.src_model == 'AdaFace':
             fea, _ = model_r.forward(data)
         else:
-            fea = model_r.forward(data)
+            fea = model_r.forward(data*255)
         return fea
 
     def attack(self, data, model, model_r):
